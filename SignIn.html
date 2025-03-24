@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+     <!-- img top -->
+     <link rel="icon" type="image" href="logo.png" />
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form" onsubmit="return validateForm()" target="_blank">
+                <h2 style="text-align: center;">Login</h2>
+                <input type="text" required placeholder="Username" id="user" />
+                <input type="password" required placeholder="Password" id="pass" />
+                <img src="https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/hide-512.png"
+                    onclick="show()" id="showimg">
+                <span id="valid-pass"></span>
+                <button type="submit">SIGN IN</button>
+                <p class="message"><a href="#">Forgot your password?</a></p>
+            </form>
+        </div>
+    </div>
+    <script>
+        function validateForm() {
+            var username = document.getElementById("user").value;
+            var password = document.getElementById("pass").value;
+            var validPass = document.getElementById("valid-pass");
+
+            // Reset error message
+            validPass.textContent = "";
+
+            // Validate username
+            if (username.trim() === "") {
+                validPass.textContent = "Username cannot be empty";
+                return false;
+            }
+
+            // Validate password
+            if (password.length < 8) {
+                validPass.textContent = "Password must be at least 8 characters long";
+                return false;
+            }
+
+            // You can add more password validation rules here
+            // For example, requiring uppercase, lowercase, numbers, and special characters
+            var passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+            if (!passwordRegex.test(password)) {
+                validPass.textContent = "Password must contain at least one uppercase letter, one lowercase letter, one number, and one special character";
+                return false;
+            }
+
+            // If all validations pass
+            return true;
+        }
+
+        function show() {
+            var passwordInput = document.getElementById("pass");
+            var showImg = document.getElementById("showimg");
+
+            if (passwordInput.type === "password") {
+                passwordInput.type = "text";
+                showImg.src = "https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/show-512.png";
+            } else {
+                passwordInput.type = "password";
+                showImg.src = "https://cdn2.iconfinder.com/data/icons/basic-ui-interface-v-2/32/hide-512.png";
+            }
+        }
+    </script>
+</body>
+</html>
