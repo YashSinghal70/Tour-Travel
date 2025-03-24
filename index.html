@@ -1,0 +1,1602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+     <!-- img top -->
+     <link rel="icon" type="image" href="logo.png" />
+     <!-- bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!-- fontawesome cdn -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- owl carousel -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!-- custom css -->
+ <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+      <!-- nav -->
+  <nav class="navbar navbar-expand-lg   nav-background w-100   fixed-top">
+    <div class="container">
+      <!-- logo -->
+      <a class="navbar-brand text-white fs-4 fw-bold" href="#"><img src="logo.png" width="70px" alt="">Ready <span style="color: #12c4a0;">ToGo</span></a>
+            <!--toggle btn  -->
+      <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fa-solid fa-bars toggler-icon" style="color: #ffffff;"></i>
+      </button>
+      <!-- sidbar -->
+      <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <!-- sidebar header -->
+        <div class="offcanvas-header text-white border-bottom ">
+          <h5 class="offcanvas-title fs-2" id="offcanvasNavbarLabel"><img src="logo.png" width="70px" alt="">Ready <span style="color: #12c4a0;">ToGo</span></h5>
+          <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+          <!-- sidebar body -->
+        <div class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0">
+          <ul class="navbar-nav justify-content-center  align-items-center fs-5 flex-grow-1 ">
+            <li class="nav-item mx-2 ">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="About.html">About</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Packages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item  fw-bold" href="#">Special Packages</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Indian Tour </a></li>
+                  <li><a class="dropdown-item" href="#">London Tour</a></li>
+                  <li><a class="dropdown-item" href="#">Germany Tour</a></li>
+                  <li><a class="dropdown-item" href="#">Paris Tour</a></li>
+                  <li><a class="dropdown-item" href="#">Switzerland Tour</a></li>
+
+<li><hr class="dropdown-divider"></li>
+<li><a class="dropdown-item  fw-bold" href="#">Packages by State </a></li>
+<li><hr class="dropdown-divider"></li>
+
+
+<li><a class="dropdown-item" href="#">Rajasthan</a></li>
+<li><a class="dropdown-item" href="#">Uttarakhand</a></li>
+<li><a class="dropdown-item" href="#">Himachal</a></li>
+<li><a class="dropdown-item" href="#">MadhyaPradesh</a></li>
+<li><a class="dropdown-item" href="#">Karnataka</a></li>
+<li><a class="dropdown-item" href="#">Maharashtra</a></li>
+
+                </ul>
+              </li>
+
+
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="Service.html">Services</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+           
+          </ul>
+          <!-- <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form> -->
+          <!-- login/ Sign up -->
+          <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center gap-3">
+            <a href="SignIn.html" target="_blank" class="login text-white text-decoration-none px-3 py-1 rounded-4">Login</a>
+            <a href="SignUp.html" target="_blank" class="sign text-white text-decoration-none px-3 py-1 rounded-4" style="background-color: #f94ca4;">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- nav -->
+
+  <!-- slider -->
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.pexels.com/photos/1285625/pexels-photo-1285625.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..." width="100%" height="730px" >
+        <div class="carousel-caption d-none d-md-block">
+            <div class="back">
+                <h5 class=" fs-2 ">Cuba</h5>
+                <p class="text-white fs-5 fw-normal">Cuba has a vibrant cultural scene influenced by Spanish, African, and indigenous Taíno cultures. This mix is reflected in its music, dance (especially salsa and rumba), and art. </p>
+               </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="d-block w-100" alt="..." width="100%" height="730px">
+        <div class="carousel-caption d-none d-md-block">
+            <div class="back">
+                <h5 class=" fs-2 ">   Maldives</h5>
+                <p class="text-white fs-5 fw-normal">It is the flattest country on Earth, with an average ground level of just 1.5 meters (4 feet 11 inches) above sea level. </p>
+               </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?cs=srgb&dl=pexels-te-lensfix-380994-1371360.jpg&fm=jpg" class="d-block w-100" alt="..." width="100%" height="730px">
+        <div class="carousel-caption d-none d-md-block">
+            <div class="back">
+                <h5 class=" fs-2 "> Thailand</h5>
+                <p class="text-white fs-5 fw-normal">Thailand, known as the "Land of Smiles," is a Southeast Asian country renowned for its vibrant culture, stunning landscapes, and warm hospitality.</p>
+               </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container mt-5 pt-5">
+    <div class="backindex">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col col-12 col-md-6 col-lg-3 g-3">
+        <input type="date" class="form-control" placeholder="Select Date" aria-label="First name">
+      </div>
+      <div class="col col-12 col-md-6 col-lg-3 g-3">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Select Loctaion</option>
+          <option value="1">Autralia</option>
+          <option value="2">Dehradun</option>
+          <option value="3">Italy</option>
+          <option value="3">Lodon</option>
+          <option value="3">Haridwar</option>
+        </select>
+      </div>
+      <div class="col col-12 col-md-6 col-lg-3 g-3">
+        <select class="form-select" aria-label="Default select example">
+          <option selected>Select Activity</option>
+          <option value="1">Adventure</option>
+          <option value="2">Beaches</option>
+          <option value="3">City Tour</option>
+        
+  
+        </select>
+      </div>
+
+      <div class="col col-12 col-md-6 col-lg-3 g-3 text-center  formbook">
+        <!-- <div> -->
+          <button class="btnred"><i class="animation"></i>BookNow<i class="animation"></i>
+          </button>
+      <!-- </div> -->
+      </div>
+
+    </div>
+  
+    </div>
+  
+  
+  </div>
+
+  <!--  -->
+  <div class="container text-center mt-5 pt-5">
+    <h2 class="fw-bolder">WHY WE ARE THE BEST</h2>
+    <p class="fs-5">We offer personalized itineraries, comprehensive services, and years of travel industry expertise. Our dedicated team ensures every trip is tailored to your preferences and budget. Trust us for seamless and unforgettable travel experiences.</p>
+    <!-- <div class="line rounded-circle mx-auto" style="width:300px ;height:5px;"></div> -->
+  </div>
+
+
+<div class="container mt-5 pt-5">
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 text-center">
+<div class="col">
+<img src="7603006.png" width="80px" alt="">
+<h4>Customized Itineraries</h4>
+<p>We understand that every traveler is unique. That's why we offer personalized itineraries tailored to your interests, preferences, and budget. Whether you're seeking adventure, relaxation, or cultural immersion, we design trips that cater specifically to your desires.</p>
+</div>
+
+<div class="col">
+  <img src="experience.png" width="80px" alt="">
+  <h4> Expertise and Experience</h4>
+  <p>We have years of experience in the travel industry, ensuring that every aspect of your journey is handled with the utmost care and professionalism. Our team is composed of seasoned travel experts who are passionate about creating unforgettable experiences for our clients.</p>
+  </div>
+
+  <div class="col">
+    <img src="life-support.png" width="80px" alt="">
+    <h4>Comprehensive Travel Services</h4>
+    <p>From flights and accommodations to local tours and travel insurance, we provide a full range of services to cover all your travel needs. Our one-stop-shop approach saves you time and effort, allowing you to focus on enjoying your trip.</p>
+    </div>
+
+    <div class="col">
+      <img src="24-hour-service.png" width="80px" alt="">
+      <h4>24/7 Customer Support</h4>
+      <p>Travel plans can be unpredictable, and we're here to help whenever you need us. Our dedicated customer support team is available 24/7 to assist with any questions or issues, ensuring you have a smooth and worry-free experience from start to finish.</p>
+      </div>
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+
+  <!--  -->
+
+  <div class="container mt-5 pt-5">
+    <div class="row row-cols-1 row-cols-lg-2 g-3">
+<div class="col">
+<img src="Travel-Planning (1).jpg" class="img-fluid rounded-4" alt="">
+
+    
+</div>
+
+<div class="col">
+   <h2>Plan Your Trip with Tours</h2>
+   <p>Planning a trip with a tour can streamline the travel experience, making it more enjoyable and less stressful. Here’s a concise guide on how to effectively plan your trip with a tour:</p>
+   <ul>
+    <li class="fs-5"> <b>Determine Your Interests:</b>
+        Identify what you want from your trip—whether it’s adventure, relaxation, cultural exploration, or a mix of these.</li>
+
+<li class="fs-5"> <b>Choose the Right Tour Package:</b>
+    Select a tour package that fits your budget, interests, and schedule. Packages can vary from guided group tours to private, custom experiences.</li>
+
+    <li class="fs-5"><b>Verify Travel Documents:</b>
+        Ensure you have the necessary travel documents, such as passports, visas, and any required vaccinations. Tour operators can often assist with visa information.</li>
+
+<li class="fs-5"> <b>Check Inclusions and Exclusions:</b>
+    Review what’s included in the tour—accommodation, meals, transportation, entry fees—and what’s not. This helps in budgeting and avoiding unexpected costs.</li>
+
+    <!-- <li class="fs-5"> <b>Choose the Right Tour Package:</b>
+        Select a tour package that fits your budget, interests, and schedule. Packages can vary from guided group tours to private, custom experiences.</li> -->
+
+   </ul>
+
+
+</div>
+
+
+    </div>
+  </div>
+
+
+  <!-- dates -->
+
+  <!-- /dates -->
+
+
+  <!-- cards -->
+
+  <div class="container text-center mt-5 pt-5">
+    <h2 class="fw-bolder">Transport For Tour</h2>
+    <div class="line rounded-circle mx-auto" style="width:300px ;height:5px;"></div>
+  </div>
+
+  <div class="container mt-5 ">
+    <div class="row text-center">
+        <div class="col col-12 col-sm-12 col-md-6 col-lg-3 ">
+            <body>
+                <div id="card1-area">
+                    <div class="wrapper1">
+                        <div class="box-area">
+                            <div class="box">
+                                <img alt="" src="https://images.pexels.com/photos/333525/pexels-photo-333525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400px">
+                                <div class="overlay">
+                                    <h3>Airplane</h3>
+                                    <p class="text-white">
+                                        Airplane transport is a fast and efficient way to travel long distances, connecting destinations across the globe..</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>   <!-- col -->
+         
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-3 ">
+                <body>
+                    <div id="card1-area">
+                        <div class="wrapper1">
+                            <div class="box-area">
+                                <div class="box">
+                                    <img alt="" src="https://images.pexels.com/photos/1178448/pexels-photo-1178448.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400px">
+                                    <div class="overlay">
+                                        <h3 class="text-white">Bus</h3>
+                                        <p class="text-white">Bus transport provides an economical and flexible way to travel within cities and between destinations.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>   <!-- col -->
+
+
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-3 ">
+                    <body>
+                        <div id="card1-area">
+                            <div class="wrapper1">
+                                <div class="box-area">
+                                    <div class="box">
+                                        <img alt="" src="https://images.pexels.com/photos/1658967/pexels-photo-1658967.jpeg?auto=compress&cs=tinysrgb&w=600" width="400px">
+                                        <div class="overlay">
+                                            <h3>Train</h3>
+                                            <p class="text-white">
+                                                Train transport is a reliable and efficient mode of travel, offering scenic routes and comfort for both short and long distances.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   <!-- col -->
+
+                    <div class="col col-12 col-sm-12 col-md-6 col-lg-3 ">
+                        <body>
+                            <div id="card1-area">
+                                <div class="wrapper1">
+                                    <div class="box-area">
+                                        <div class="box">
+                                            <img alt="" src="https://images.pexels.com/photos/813011/pexels-photo-813011.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="400px">
+                                            <div class="overlay">
+                                                <h3>Ship</h3>
+                                                <p class="text-white">Ship transport offers a unique and scenic mode of travel across bodies of water, ideal for both passenger cruises and cargo shipments.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>   <!-- col -->
+    </div>
+</div>
+<!-- Place Must Visit -->
+<div class="container text-center mt-5 pt-5">
+    <h2 class="fw-bolder">Place's Most Visited</h2>
+    <div class="line rounded-circle mx-auto" style="width:300px ;height:5px;"></div>
+  </div>
+<div class="container mt-5 ">
+    
+
+    <div class="row row-cols-1 row-cols-lg-3 mt-2 gx-4 gy-4">
+        <div class="demo">
+            <figure class="imghvr-slide-down"><img src="https://images.pexels.com/photos/94420/pexels-photo-94420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="07">
+                <figcaption>
+                    <h3>Malaysia</h3>
+                    <p>Malaysia, located in Southeast Asia, is a captivating country renowned for its rich cultural diversity and stunning natural beauty. It comprises two regions: Peninsular Malaysia and East Malaysia on the island of Borneo. The country is a cultural melting pot, with Malay, Chinese, Indian, and indigenous influences shaping its vibrant festivals, cuisine, and traditions. </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div>
+        <div class="demo">
+            <figure class="imghvr-slide-left"><img src="https://www.justahotels.com/wp-content/uploads/2023/09/New-Tehri-1536x1139.jpg" alt="08">
+                <figcaption>
+                    <h3>New Tehri</h3>
+                    <p>To experience solitude and peace at a hill station, New Tehri is one of the best tourist places in Uttarakhand. This place is a must-travel ride for adventure seekers. Nestled between the lush woods and old temples, New Tehri is an ideal retreat for having an eccentric experience. Two major rivers flow near this place. These are Bhagirathi and Bhilangana. </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div>
+        <div class="demo">
+            <figure class="imghvr-slide-right"><img src="https://images.pexels.com/photos/161815/santorini-oia-greece-water-161815.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="09">
+                <figcaption>
+                    <h3>Greece</h3>
+                    <p>Greece, located in southeastern Europe on the Balkan Peninsula, is a country rich in history and culture. Known as the cradle of Western civilization, Greece is famous for its ancient ruins, including the Acropolis in Athens and the ruins of Delphi. The country’s history spans from classical antiquity to the Byzantine Empire and modern times.. </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div>
+        <div class="demo">
+            <figure class="imghvr-reveal-up"><img src="https://images.pexels.com/photos/208701/pexels-photo-208701.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="10">
+                <figcaption>
+                    <h3>Italy</h3>
+                    <p>
+                        Italy, located in Southern Europe, is a country renowned for its rich history, art, and culture. Shaped like a boot, Italy is home to iconic landmarks such as the Colosseum in Rome, the Leaning Tower of Pisa, and Venice's Grand Canal. Known for its contributions to art and architecture, Italy boasts masterpieces from the Renaissance period, including works by Leonardo  Michelangelo. </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div>
+        <div class="demo">
+            <figure class="imghvr-reveal-down"><img src="https://www.justahotels.com/wp-content/uploads/2023/09/Harsil-1024x683.jpg" alt="11">
+                <figcaption>
+                    <h3>Harsil</h3>
+                    <p>Harsil is a hidden gem in Uttarakhand that you might have yet to explore. But this time, visit this wonderful place and lose in its exceptional serene environment and picturesque landscapes. Nestled on the banks of the Bhagirathi River, Harsil is an ideal tourist destination to find solace from the sprinting urban life. </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div>
+        <div class="demo">
+            <figure class="imghvr-reveal-left"><img src="https://www.justahotels.com/wp-content/uploads/2023/09/Landour-1000x670.jpg" alt="12">
+                <figcaption>
+                    <h3>Landour</h3>
+                    <p>Uttarakhand is the best travel destination to explore for its natural scenic landscapes. Also known as Tiara of the Queen of the Hills, the tourists here can find respite from the hectic city life and lose themselves in the mild natural environment. You can visit Landour any time. </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div>
+        <div class="demo">
+            <figure class="imghvr-reveal-right"><img src="https://www.justahotels.com/wp-content/uploads/2023/09/Kausani-1000x670.jpg" alt="13">
+                <figcaption>
+                    <h3>Kausani</h3>
+                    <p>It would help if you visited Kausani in Uttarakhand to see the magnificent view of the Himalayan mountains, including Nanda Devi, Panchachuli, and Trishul. You can watch this place’s gripping view of sunrise and the tranquil landscape, reviving you with freshness.</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div>
+        <div class="demo">
+            <figure class="imghvr-hinge-up"><img src="https://images.pexels.com/photos/867092/pexels-photo-867092.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="14">
+                <figcaption>
+                    <h3>Singapore</h3>
+                    <p>Singapore boasts a blend of modernity and tradition, with iconic landmarks such as Marina Bay Sands, Gardens by the Bay, and the historic Chinatown. The city is also famous for its diverse culinary scene, offering a mix of local dishes and international cuisine. As a center for commerce, technology, and tourism, Singapore continues to thrive as a leading destination for business. </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div>
+        <div class="demo">
+            <figure class="imghvr-hinge-down"><img src="https://www.justahotels.com/wp-content/uploads/2023/09/Auli.jpg" alt="15">
+                <figcaption>
+                    <h3>Auli</h3>
+                    <p>When it comes to enjoying adventure sports like skiing or snowboarding, plus watching the magnificent vistas, snow-covered mountains, and coniferous forests, Auli is a popular tourist destination. </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div>
+        <!-- <div class="demo">
+            <figure class="imghvr-hinge-left"><img src="https://www.justahotels.com/wp-content/uploads/2023/09/Nainital-1024x768.jpg" alt="16">
+                <figcaption>
+                    <h3>Nainital</h3>
+                    <p>Nainital might seem like one of the most common vacation choices, but it is a popular travel destination in Uttarakhand for honeymoon couples and family goers. The scenic getaway of this place is worth exploring. In addition, it is also known as the Lake District of India as it stocks multiple lakes. You can visit Nainital any time.</p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div> -->
+        <!-- <div class="demo">
+            <figure class="imghvr-hinge-right"><img src="https://www.justahotels.com/wp-content/uploads/2023/09/Mukteshwar-1-1000x670.jpg" alt="17">
+                <figcaption>
+                    <h3>Mukteshwar</h3>
+                    <p>Last on the list is Mukteshwar, one of the famous cities in Uttarakhand. This is the place for watching spectacular views of cascading waterfalls and other tourist attractions, including Mukteshwar Temple. You can plan your perfect staycation at one of the best luxury resorts in Mukteshwar. 
+
+                    </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div> -->
+        <!-- <div class="demo">
+            <figure class="imghvr-flip-horiz"><img src="https://www.justahotels.com/wp-content/uploads/2023/09/Jim-Corbett-National-Park.jpg" alt="18">
+                <figcaption>
+                    <h3>Jim Corbett National Park</h3>
+                    <p>For all the wildlife fanatics, Jim Corbett National Park is the best tourist destination. Being India’s first national park, it deserves to be on every traveller’s list. The main motto behind the foundation of this park was to save Bengal tigers since 1936. </p>
+                </figcaption><a href="javascript:;"></a>
+            </figure>
+        </div> -->
+    </div>
+
+</div>
+
+
+<!-- offers -->
+<div class="container text-center mt-5 pt-5">
+  <h2 class="fw-bolder">Offers</h2>
+  <div class="line rounded-circle mx-auto" style="width:100px ;height:5px;"></div>
+</div>
+<div class="container mt-5 pt-5">
+  
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+          <div class="row">
+            <div class="col col-sm-12 col-md-6 col-lg-4">
+    
+            <div class="card mb-3 offercard1" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/premium-psd/travel-agency-…ket-boarding-pass_181345-172.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-title fw-light">DOM FLIGHTS</p>
+            <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+            <p class="card-text">Explore the world's most beautiful places with our exclusive tours.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+            <div class="col  d-none d-md-block">
+    <div class="card mb-3 offercard1" >
+    <div class="row g-0">
+    <div class="col-md-4">
+    <img src="https://img.freepik.com/free-vector/vector-travel-banner-time-travel-poster_134830-1045.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-8">
+    <div class="card-body">
+    <p class="card-title fw-light">DOM FLIGHTS</p>
+    <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+    <p class="card-text">Discover the best of urban landscapes with our guided city tours</p>
+    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col  d-none d-lg-block">
+    
+            <div class="card mb-3 offercard1" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-psd/poster-travel-template-design_23-2149207056.jpg?t=st=1718956323~exp=1718959923~hmac=a351130d2d5b69fe0a4343c85041045838ddf66bc85fc1c70728ee2b4b5a8309&w=740" class="img-fluid rounded-start" alt="..."/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-title fw-light">DOM FLIGHTS</p>
+            <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+            <p class="card-text">Choose sustainable travel packages that respect the environment</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+          </div>
+    
+          <div class="row mt-3">
+            <div class="col col-sm-12 col-md-6 col-lg-4">
+    
+            <div class="card mb-3 offercard1" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-vector/gradient-airli…oster-template_23-2149683590.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-title fw-light">DOM FLIGHTS</p>
+            <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+            <p class="card-text">Grab amazing deals on spontaneous getaway.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+            <div class="col  d-none d-md-block">
+    <div class="card mb-3 offercard1" >
+    <div class="row g-0">
+    <div class="col-md-4">
+    <img src="https://img.freepik.com/free-psd/explore-world-flyer-template_23-2149182977.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-8">
+    <div class="card-body">
+    <p class="card-title fw-light">DOM FLIGHTS</p>
+    <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+    <p class="card-text"> Book early and take advantage of special rates</p>
+    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col  d-none d-lg-block">
+    
+            <div class="card mb-3 offercard1" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-psd/travel-agency-flyer-template_23-2148636203.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-title fw-light">DOM FLIGHTS</p>
+            <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+            <p class="card-text"> Save more when you travel with friends or family.</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+          </div>
+    
+    
+    
+    
+        </div>
+        <div class="carousel-item">
+        <div class="row">
+            <div class="col col-sm-12 col-md-6 col-lg-4">
+    
+            <div class="card mb-3 offercard1" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/premium-psd/travel-agency-…ket-boarding-pass_181345-172.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-title fw-light">DOM FLIGHTS</p>
+            <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+            <p class="card-text">Get to know local traditions and cuisines with our curated experiences</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+            <div class="col  d-none d-md-block">
+    <div class="card mb-3 offercard1" >
+    <div class="row g-0">
+    <div class="col-md-4">
+    <img src="https://img.freepik.com/free-vector/vector-travel-banner-time-travel-poster_134830-1045.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-8">
+    <div class="card-body">
+    <p class="card-title fw-light">DOM FLIGHTS</p>
+    <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+    <p class="card-text">Thrilling experiences like hiking, snorkeling, and safari trips</p>
+    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col  d-none d-lg-block">
+    
+            <div class="card mb-3 offercard1" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-psd/poster-travel-template-design_23-2149207056.jpg?t=st=1718956323~exp=1718959923~hmac=a351130d2d5b69fe0a4343c85041045838ddf66bc85fc1c70728ee2b4b5a8309&w=740" class="img-fluid rounded-start" alt="..."/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-title fw-light">DOM FLIGHTS</p>
+            <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+            <p class="card-text">Stay in top-rated hotels and resorts around the globe</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+          </div>
+    
+          <div class="row mt-3">
+            <div class="col col-sm-12 col-md-6 col-lg-4">
+    
+            <div class="card mb-3 offercard1" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-vector/gradient-airli…oster-template_23-2149683590.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-title fw-light">DOM FLIGHTS</p>
+            <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+            <p class="card-text">Thrilling experiences like hiking, snorkeling, and safari trips</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+            <div class="col  d-none d-md-block">
+    <div class="card mb-3 offercard1" >
+    <div class="row g-0">
+    <div class="col-md-4">
+    <img src="https://img.freepik.com/free-psd/explore-world-flyer-template_23-2149182977.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-8">
+    <div class="card-body">
+    <p class="card-title fw-light">DOM FLIGHTS</p>
+    <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+    <p class="card-text">Fun and engaging activities for travelers of all ages</p>
+    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="col  d-none d-lg-block">
+    
+            <div class="card mb-3 offercard1" >
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://img.freepik.com/free-psd/travel-agency-flyer-template_23-2148636203.jpg?size=626&ext=jpg" class="img-fluid rounded-start" alt="..."/>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-title fw-light">DOM FLIGHTS</p>
+            <h4 class="card-title fw-semibold">Grap Upto 60% Off*</h4>
+            <p class="card-text">Customize your trip to match your interests and schedule</p>
+            <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon py-4 bg-success rounded-2" aria-hidden="true" style="background-color: #12c4a0 !important;"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon py-4 bg-danger rounded-2" aria-hidden="true" style="background-color: #12c4a0 !important;"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    
+</div>
+
+<!--travel book  -->
+<!-- <div class="mt-5 pt-5">
+  <div class="travelbook">
+    
+  </div>
+</div> -->
+
+<!--travel book  -->
+
+
+<!-- download -->
+<div class="container mt-5 p-3 down">
+  <div class="row align-items-center">
+    <div class="col-md-8">
+      <h2 class="fw-bold">Download App Now !</h2>
+      <p class="text-muted">Use code <span class="fw-bold">WELCOMEMMT</span> and get <span class="fw-bold">FLAT 12% OFF*</span> on your first domestic flight booking</p>
+      
+      <div class="input-group mb-3">
+        <span class="input-group-text">
+          <img src="https://imgak.mmtcdn.com/pwa_v3/pwa_mmt_ui_assets/in_v2.webp" alt="Indian flag" class="me-2" style="width: 20px;">
+          +91
+        </span>
+        <input type="text" class="form-control" placeholder="Enter Mobile number">
+        <button class="btnapp"><i class="animation"></i>get app link<i class="animation"></i>
+        </button>
+      </div>
+    </div>
+    
+    <div class="col-md-4 text-end">
+<div class="row text-center">
+  <div class="col col-8 ">
+    <a href="#" class="playstore-button">
+      <span class="icon">
+        <svg
+          fill="currentcolor"
+          viewBox="-52.01 0 560.035 560.035"
+          xmlns="http://www.w3.org/2000/svg"
+          stroke="#ffffff"
+        >
+          <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+          <g
+            id="SVGRepo_tracerCarrier"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M380.844 297.529c.787 84.752 74.349 112.955 75.164 113.314-.622 1.988-11.754 40.191-38.756 79.652-23.343 34.117-47.568 68.107-85.731 68.811-37.499.691-49.557-22.236-92.429-22.236-42.859 0-56.256 21.533-91.753 22.928-36.837 1.395-64.889-36.891-88.424-70.883-48.093-69.53-84.846-196.475-35.496-282.165 24.516-42.554 68.328-69.501 115.882-70.192 36.173-.69 70.315 24.336 92.429 24.336 22.1 0 63.59-30.096 107.208-25.676 18.26.76 69.517 7.376 102.429 55.552-2.652 1.644-61.159 35.704-60.523 106.559M310.369 89.418C329.926 65.745 343.089 32.79 339.498 0 311.308 1.133 277.22 18.785 257 42.445c-18.121 20.952-33.991 54.487-29.709 86.628 31.421 2.431 63.52-15.967 83.078-39.655"
+            ></path>
+          </g>
+        </svg>
+      </span>
+      <span class="texts">
+        <span class="text-1">Download form</span>
+        <span class="text-2">App store</span>
+      </span>
+    </a>
+
+    <a class="playstore-button mt-2" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="icon" viewBox="0 0 512 512">
+        <path d="M99.617 8.057a50.191 50.191 0 00-38.815-6.713l230.932 230.933 74.846-74.846L99.617 8.057zM32.139 20.116c-6.441 8.563-10.148 19.077-10.148 30.199v411.358c0 11.123 3.708 21.636 10.148 30.199l235.877-235.877L32.139 20.116zM464.261 212.087l-67.266-37.637-81.544 81.544 81.548 81.548 67.273-37.64c16.117-9.03 25.738-25.442 25.738-43.908s-9.621-34.877-25.749-43.907zM291.733 279.711L60.815 510.629c3.786.891 7.639 1.371 11.492 1.371a50.275 50.275 0 0027.31-8.07l266.965-149.372-74.849-74.847z"></path>
+      </svg>
+      <span class="texts">
+        <span class="text-1">GET IT ON</span>
+        <span class="text-2">Google Play</span>
+      </span>
+    </a>
+  </div>
+  <div class="col col-4 text-end">
+    <img src="324172.image0-removebg-preview.png" alt="QR Code" class="mt-2" style="width: 100px;">
+  </div>
+</div>
+<!--  -->
+
+      <!-- <a href="#" class="me-2"><img src="googrlpaly.png" alt="Get it on Google Play" style="height: 40px;"></a> -->
+      <!-- <a href="#"><img src="app-sprite.png" alt="Download on the App Store" style="height: 40px;"></a> -->
+     
+    </div>
+  </div>
+</div>
+
+<!-- slider -->
+<div class = "container-fluid mt-5 pt-5">
+    <div class = "row my-5">
+        <h1 class = "text-center">Featured tours</h1>
+        <p class = "fw-light w-75 mx-auto text-center">Most Popular Tours.</p>
+    </div>
+
+    <div class = "row g-4 my-5 mx-auto owl-carousel owl-theme" id="owl-carousel1">
+
+      <div class = "col product-itemcaro mx-auto">
+        <div class="carobder">
+        <div class = "product-imgcaro">
+            <img src = "jovyn-chamb-iWMfiInivp4-unsplash.jpg" alt = "" class = "img-fluid d-block mx-auto">
+           
+        </div>
+
+        <div class = "product-infocaro p-3">
+            <div class = "ratingcaro d-flex mt-1">
+                <span>
+                    <i class = "fa fa-star" style="color: #ffa127;"></i>
+                </span>
+                <span>
+                    <i class = "fa fa-star" style="color: #ffa127;"></i>
+                </span>
+                <span>
+                    <i class = "fa fa-star " style="color: #ffa127;"></i>
+                </span>
+                <span>
+                    <i class = "fa fa-star" style="color: #ffa127;"></i>
+                </span>
+                <span>
+                    <i class="fa-regular fa-star-half-stroke"  style="color: #ffa127;"></i>
+                </span>
+                <span>4.09</span>
+            </div>
+            <!-- <span class = "product-type">Electronics & Accessories</span> -->
+            <a href = "#" class = "fs-5 fw-bold d-block text-dark text-decoration-none py-2 product-namecaro">India – Taj Mahal</a>
+            <p class="fs-6"><i class="fas fa-map-marker-alt me-1" style="color: rgb(44, 103, 252);"></i> Agra in Uttar Pradesh, India
+            </p>
+            <!-- <span class = "product-pricecaro">$39.00</span> -->
+     <div class="d-flex align-items-center justify-content-between mt-4">
+<p  style="color: #8c8c8c;"><i class="far fa-clock me-1 " style="color: #336dd5 ;"></i> 4Days</p>
+
+<a href="#" class="btn btn-style btn-style-primary" style="color: #336dd5;">Explore <i class="fas fa-arrow-right" ></i> </a>
+
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+        <div class = "col product-itemcaro mx-auto">
+            <div class="carobder">
+            <div class = "product-imgcaro">
+                <img src = "Dubaii.avif" alt = "" class = "img-fluid d-block mx-auto">
+               
+            </div>
+
+            <div class = "product-infocaro p-3">
+                <div class = "ratingcaro d-flex mt-1">
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star " style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>4.09</span>
+                </div>
+                <!-- <span class = "product-type">Electronics & Accessories</span> -->
+                <a href = "#" class = "fs-5 fw-bold d-block text-dark text-decoration-none py-2 product-namecaro">Dubai – Stunning Places</a>
+                <p class="fs-6"><i class="fas fa-map-marker-alt me-1" style="color: rgb(44, 103, 252);"></i> 5th Avenue, London</p>
+                <!-- <span class = "product-pricecaro">$39.00</span> -->
+         <div class="d-flex align-items-center justify-content-between mt-4">
+<p  style="color: #8c8c8c;"><i class="far fa-clock me-1 " style="color: #336dd5 ;"></i> 7Days</p>
+
+<a href="#" class="btn btn-style btn-style-primary" style="color: #336dd5;">Explore <i class="fas fa-arrow-right" ></i> </a>
+
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+        <div class = "col product-itemcaro mx-auto">
+            <div class="carobder">
+            <div class = "product-imgcaro">
+                <img src = "Itally.jpeg" alt = "" class = "img-fluid d-block mx-auto">
+               
+            </div>
+
+            <div class = "product-infocaro p-3">
+                <div class = "ratingcaro d-flex mt-1">
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star " style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class="fa-regular fa-star-half-stroke"  style="color: #ffa127;"></i>
+                    </span>
+                    <span>4.08</span>
+                </div>
+                <!-- <span class = "product-type">Electronics & Accessories</span> -->
+                <a href = "#" class = "fs-5 fw-bold d-block text-dark text-decoration-none py-2 product-namecaro">Enquiry Form Only – Italy</a>
+                <p class="fs-6"><i class="fas fa-map-marker-alt me-1" style="color: rgb(44, 103, 252);"></i>Henley Street, Italy</p>
+                <!-- <span class = "product-pricecaro">$39.00</span> -->
+         <div class="d-flex align-items-center justify-content-between mt-4">
+<p  style="color: #8c8c8c;"><i class="far fa-clock me-1 " style="color: #336dd5 ;"></i> 7Days</p>
+
+<a href="#" class="btn btn-style btn-style-primary" style="color: #336dd5;">Explore <i class="fas fa-arrow-right" ></i> </a>
+
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+        <div class = "col product-itemcaro mx-auto">
+            <div class="carobder">
+            <div class = "product-imgcaro">
+                <img src = "Swiz.jpg" alt = "" class = "img-fluid d-block mx-auto">
+               
+            </div>
+
+            <div class = "product-infocaro p-3">
+                <div class = "ratingcaro d-flex mt-1">
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star " style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class="fa-regular fa-star-half-stroke"  style="color: #ffa127;"></i>
+                    </span>
+                    <span>4.08</span>
+                </div>
+                <!-- <span class = "product-type">Electronics & Accessories</span> -->
+                <a href = "#" class = "fs-5 fw-bold d-block text-dark text-decoration-none py-2 product-namecaro">Switzerland – best Zurich </a>
+                <p class="fs-6"><i class="fas fa-map-marker-alt me-1" style="color: rgb(44, 103, 252);"></i> Zermatt, USA</p>
+                <!-- <span class = "product-pricecaro">$39.00</span> -->
+         <div class="d-flex align-items-center justify-content-between mt-4">
+<p  style="color: #8c8c8c;"><i class="far fa-clock me-1 " style="color: #336dd5 ;"></i> 7Days</p>
+
+<a href="#" class="btn btn-style btn-style-primary" style="color: #336dd5;">Explore <i class="fas fa-arrow-right" ></i> </a>
+
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+        <div class = "col product-itemcaro mx-auto">
+          <div class="carobder">
+          <div class = "product-imgcaro">
+              <img src = "caption.jpg" alt = "" class = "img-fluid d-block mx-auto">
+             
+          </div>
+    
+          <div class = "product-infocaro p-3">
+              <div class = "ratingcaro d-flex mt-1">
+                  <span>
+                      <i class = "fa fa-star" style="color: #ffa127;"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star" style="color: #ffa127;"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star " style="color: #ffa127;"></i>
+                  </span>
+                  <span>
+                      <i class = "fa fa-star" style="color: #ffa127;"></i>
+                  </span>
+                  <span>
+                      <i class="fa-regular fa-star-half-stroke"  style="color: #ffa127;"></i>
+                  </span>
+                  <span>4.09</span>
+              </div>
+              <!-- <span class = "product-type">Electronics & Accessories</span> -->
+              <a href = "#" class = "fs-5 fw-bold d-block text-dark text-decoration-none py-2 product-namecaro">India – Rishikesh</a>
+              <p class="fs-6"><i class="fas fa-map-marker-alt me-1" style="color: rgb(44, 103, 252);"></i> Uttarakhand, India
+              </p>
+              <!-- <span class = "product-pricecaro">$39.00</span> -->
+       <div class="d-flex align-items-center justify-content-between mt-4">
+    <p  style="color: #8c8c8c;"><i class="far fa-clock me-1 " style="color: #336dd5 ;"></i> 4Days</p>
+    
+    <a href="#" class="btn btn-style btn-style-primary" style="color: #336dd5;">Explore <i class="fas fa-arrow-right" ></i> </a>
+    
+          </div>
+    
+          </div>
+      </div>
+      </div>
+
+        <div class = "col product-itemcaro mx-auto">
+            <div class="carobder">
+            <div class = "product-imgcaro">
+                <img src = "Dis.jpg" alt = "" class = "img-fluid d-block mx-auto">
+               
+            </div>
+
+            <div class = "product-infocaro p-3">
+                <div class = "ratingcaro d-flex mt-1">
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star " style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>4.08</span>
+                </div>
+                <!-- <span class = "product-type">Electronics & Accessories</span> -->
+                <a href = "#" class = "fs-5 fw-bold d-block text-dark text-decoration-none py-2 product-namecaro">Discovery Best Tours</a>
+                <p class="fs-6"><i class="fas fa-map-marker-alt me-1" style="color: rgb(44, 103, 252);"></i> Central Park West NY, USA</p>
+                <!-- <span class = "product-pricecaro">$39.00</span> -->
+         <div class="d-flex align-items-center justify-content-between mt-4">
+<p  style="color: #8c8c8c;"><i class="far fa-clock me-1 " style="color: #336dd5 ;"></i> 7Days</p>
+
+<a href="#" class="btn btn-style btn-style-primary" style="color: #336dd5;">Explore <i class="fas fa-arrow-right" ></i> </a>
+
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+
+      <div class = "col product-itemcaro mx-auto">
+        <div class="carobder">
+        <div class = "product-imgcaro">
+            <img src = "pexels-sbsoneji-3581369.jpg" alt = "" class = "img-fluid d-block mx-auto">
+           
+        </div>
+
+        <div class = "product-infocaro p-3">
+            <div class = "ratingcaro d-flex mt-1">
+                <span>
+                    <i class = "fa fa-star" style="color: #ffa127;"></i>
+                </span>
+                <span>
+                    <i class = "fa fa-star" style="color: #ffa127;"></i>
+                </span>
+                <span>
+                    <i class = "fa fa-star " style="color: #ffa127;"></i>
+                </span>
+                <span>
+                    <i class = "fa fa-star" style="color: #ffa127;"></i>
+                </span>
+                <span>
+                    <i class="fa-regular fa-star-half-stroke"  style="color: #ffa127;"></i>
+                </span>
+                <span>4.09</span>
+            </div>
+            <!-- <span class = "product-type">Electronics & Accessories</span> -->
+            <a href = "#" class = "fs-5 fw-bold d-block text-dark text-decoration-none py-2 product-namecaro">India – Hawa Mahal</a>
+            <p class="fs-6"><i class="fas fa-map-marker-alt me-1" style="color: rgb(44, 103, 252);"></i> Jaipur, Rajasthan, India
+            </p>
+            <!-- <span class = "product-pricecaro">$39.00</span> -->
+     <div class="d-flex align-items-center justify-content-between mt-4">
+<p  style="color: #8c8c8c;"><i class="far fa-clock me-1 " style="color: #336dd5 ;"></i> 4Days</p>
+
+<a href="#" class="btn btn-style btn-style-primary" style="color: #336dd5;">Explore <i class="fas fa-arrow-right" ></i> </a>
+
+        </div>
+
+        </div>
+    </div>
+    </div>
+
+
+        <div class = "col product-itemcaro mx-auto">
+            <div class="carobder">
+            <div class = "product-imgcaro">
+                <img src = "Paris.jpg" alt = "" class = "img-fluid d-block mx-auto">
+               
+            </div>
+
+            <div class = "product-infocaro p-3">
+                <div class = "ratingcaro d-flex mt-1">
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star " style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class="fa-regular fa-star-half-stroke"  style="color: #ffa127;"></i>
+                    </span>
+                    <span>4.09</span>
+                </div>
+                <!-- <span class = "product-type">Electronics & Accessories</span> -->
+                <a href = "#" class = "fs-5 fw-bold d-block text-dark text-decoration-none py-2 product-namecaro">Paris – Eiffel Tower</a>
+                <p class="fs-6"><i class="fas fa-map-marker-alt me-1" style="color: rgb(44, 103, 252);"></i> Northern central France, Paris
+                </p>
+                <!-- <span class = "product-pricecaro">$39.00</span> -->
+         <div class="d-flex align-items-center justify-content-between mt-4">
+<p  style="color: #8c8c8c;"><i class="far fa-clock me-1 " style="color: #336dd5 ;"></i> 7Days</p>
+
+<a href="#" class="btn btn-style btn-style-primary" style="color: #336dd5;">Explore <i class="fas fa-arrow-right" ></i> </a>
+
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+        <div class = "col product-itemcaro mx-auto">
+            <div class="carobder">
+            <div class = "product-imgcaro">
+                <img src = "https://images.pexels.com/photos/2179602/pexels-photo-2179602.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt = "" class = "img-fluid d-block mx-auto">
+               
+            </div>
+
+            <div class = "product-infocaro p-3">
+                <div class = "ratingcaro d-flex mt-1">
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star " style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class = "fa fa-star" style="color: #ffa127;"></i>
+                    </span>
+                    <span>
+                        <i class="fa-regular fa-star-half-stroke"  style="color: #ffa127;"></i>
+                    </span>
+                    <span>4.08</span>
+                </div>
+                <!-- <span class = "product-type">Electronics & Accessories</span> -->
+                <a href = "#" class = "fs-5 fw-bold d-block text-dark text-decoration-none py-2 product-namecaro">America – Lake Tahoe</a>
+                <p class="fs-6"><i class="fas fa-map-marker-alt me-1" style="color: rgb(44, 103, 252);"></i> Figueroa Mountain Road, USA
+                </p>
+                <!-- <span class = "product-pricecaro">$39.00</span> -->
+         <div class="d-flex align-items-center justify-content-between mt-4">
+<p  style="color: #8c8c8c;"><i class="far fa-clock me-1 " style="color: #336dd5 ;"></i> 7Days</p>
+
+<a href="#" class="btn btn-style btn-style-primary" style="color: #336dd5;">Explore <i class="fas fa-arrow-right" ></i> </a>
+
+            </div>
+
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+   
+
+
+    </div>
+</div>
+
+
+<!-- Counter -->
+
+
+<div class=" mt-5 pt-5 ">
+    <div class="counterimg">
+        <div class="text-center text-white">
+            <h4>Statistics</h4>
+        <h2> We have over 1 years Experience</h2>
+        </div>
+      <div class="row text-center">
+         <div class="col col-sm-12 col-md-6  col-lg-3 g-3">
+          <div class="containerr">
+            <i class="fa-solid fa-plane"></i>              <!-- value in containerr -->
+              <span class="num" data-val="1000">000</span>
+              <span class="text">Tour Completed</span>
+            </div>
+         </div>
+
+         <div class="col col-sm-12 col-md-6  col-lg-3 g-3">
+          <div class="containerr">
+              <i class="fas fa-smile-beam"></i>
+              <span class="num" data-val="860">000</span>
+              <span class="text">Happy Customers</span>
+            </div>
+         </div>
+
+         <div class="col col-sm-12 col-md-6  col-lg-3 g-3">
+          <div class="containerr">
+            <i class="fa-solid fa-umbrella-beach"></i>
+              <span class="num" data-val="100">000</span>
+              <span class="text">Stunning Places</span>
+            </div>
+         </div>
+
+         <div class="col col-sm-12 col-md-6  col-lg-3 g-3">
+          <div class="containerr">
+              <i class="fas fa-star"></i>
+              <span class="num" data-val="800">000</span>
+              <span class="text">Five Stars</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </div>
+
+
+<!-- form -->
+<div class="container text-center mt-5 pt-5">
+    <h2 class="fw-bolder">Form For Booking</h2>
+    <div class="line rounded-circle mx-auto" style="width:300px ;height:5px;"></div>
+  </div>
+
+<div class="container mt-5 pt-5">
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-6">
+          <label for="validationCustom01" class="form-label">First name</label>
+          <input type="text" class="form-control" id="validationCustom01"  required>
+          <div class="invalid-feedback">
+            Please provide a Valid  First Name .
+
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationCustom02" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="validationCustom02"  required>
+          <div class="invalid-feedback">
+            Please provide a Valid  First Name .
+
+          </div>
+        </div>
+<!--  -->
+<div class="col-md-12">
+    <label for="validationCustom02" class="form-label">Email</label>
+    <input type="email" class="form-control" id="validationCustom02" required>
+    <div class="invalid-feedback">
+        Please provide a Valid  Eamil Address.
+    </div>
+  </div>
+        <!--  -->
+    <!--  -->
+<div class="col-md-12">
+    <label for="validationCustom02" class="form-label">Address</label>
+    <input type="text" class="form-control" id="validationCustom02" required>
+    <div class="invalid-feedback">
+        Please provide  a valid  Address.
+    </div>
+  </div>
+        <!--  -->
+        <div class="col-md-6">
+          <label for="validationCustom03" class="form-label">City</label>
+          <input type="text" class="form-control" id="validationCustom03" required>
+          <div class="invalid-feedback">
+            Please provide a valid city.
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom04" class="form-label">Activity</label>
+          <select class="form-select" id="validationCustom04" required>
+            <option selected disabled value="">Choose...</option>
+            <option>Adventure</option>
+            <option> Beaches</option>
+            <option> City Tours</option>
+            <option> Cruise</option>
+
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid Activity
+          </div>
+        </div>
+        <div class="col-md-3">
+          <label for="validationCustom05" class="form-label"> 
+            Guests</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Please provide a valid  number of
+            Guests.
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <!-- <button class="btn btn-primary" type="submit">Submit form</button> -->
+          <button class="btnapp1"><i class="animation"></i>Submit form<i class="animation"></i>
+        </div>
+      </form>
+</div>
+
+<!-- review -->
+<div class="container text-center mt-5">
+    <h2 class="fw-bolder">Customers Reviews</h2>
+    <div class="line rounded-circle mx-auto" style="width: 170px ;height:5px;"></div>
+  </div>
+
+
+<div class="container-fluid mt-5 pt-3">
+<div class="row">
+<div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3">
+<div class="book ">
+    <h6><img src="google-logo-9808.png" alt="" width="50px" class="object-fit-cover"> &nbsp;Amit Tandon</h6>
+    <h5>Trip to Bali
+    </h5>
+  <h6>Rating 5/5 
+    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+    <i class="fa-solid fa-star" style="color: #FFD43B;"></i>  </h6>
+<p class="overflow-auto">The trip was wonderful, with everything well planned and organized. Mr. Aravind, our travel planner, communicated promptly and his suggestions for places to visit were fantastic. Special mention goes to the Ulu Segara Hotel, which provided an amazing stay. The driver arranged for us was excellent, making travel comfortable, safe, and easy to communicate throughout the trip</p>
+  <div class="cover">
+   <img src="front-view-male-student-wearing-black-backpack-holding-copybooks-files-blue-wall.jpg" width="100%" height="100%" class="radius1" alt="">
+  </div>
+ </div>
+</div>      <!-- col -->
+
+<div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3">
+<div class="book ">
+    <h6><img src="google-logo-9808.png" alt="" width="50px" class="object-fit-cover"> &nbsp;Kavita Joshi</h6>
+    <h5>Trip to Kashmir
+    </h5>
+    <h6>Rating 4.9/5 
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-regular fa-star-half-stroke" style="color: #FFD43B;"></i>
+      </h6>
+    <p class="overflow-auto">I planned a trip with MEIKAH Associates Tour and Travel for 4 days and 3 nights. My trip planner was *Miss Khusboo* , a professional in the tourism sector. She easily handled my trip according to my requirements and planned it perfectly. Before the trip, everyone was saying that Kashmir is not safe for travel, but my trip planner and guide explained and assured me that my safety was their first priority. When I visited Kashmir, it was incredibly beautiful, like visiting the heaven of the world. From the serene Dal Lake to the majestic Himalayan peaks, it was a captivating picture that inspires wanderlust. I especially thank my trip advisor, *Miss Khusboo,* for this wonderful trip plan. I urge all tourists to connect with MEIKAH Associates Tour and Travel. They plan your trip within your budget and make your trip very memorable.</p>
+  <div class="cover">
+   <img src="red-haired-lady-eyeglasses-holds-books-shows-ok-sign.jpg" width="100%" height="100%" class="radius1" alt="">
+  </div>
+ </div>
+</div>      <!-- col -->
+
+<div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3">
+<div class="book ">
+    <h6><img src="google-logo-9808.png" alt="" width="50px" class="object-fit-cover"> &nbsp;Anuj Jain</h6>
+<h5>Trip to Uttarakhand
+</h5>
+    <h6>Rating 5/5 
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>      </h6>
+    <p class="overflow-auto">I recently had an incredible trip to Nainital with Adventuremaniac. The entire tour was wonderfully organized. The team was professional and made sure we were well taken care of. I highly recommend their services for a hassle-free vacation.</p>
+  <div class="cover">
+   <img src="smiling-happy-indian-student-with-backpack-pointing-his-finger-wall.jpg" width="100%" height="100%" class="radius1" alt="">
+  </div>
+ </div>
+</div>      <!-- col -->
+
+<div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3">
+<div class="book ">
+    <h6><img src="google-logo-9808.png" alt="" width="50px" class="object-fit-cover"> &nbsp;Sushila Gupta</h6>
+<h5>Trip to Thailand
+</h5>
+    <h6>Rating 4.9/5 
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+        <i class="fa-regular fa-star-half-stroke" style="color: #FFD43B;"></i>
+      </h6>
+    <p class="overflow-auto">The complete trip was well planned and coordinated . The pick and drop , vehicle conditions were exceptional. Communication from agent were timely and good. I am most satisfied by the service. Planning suggestions were most appreciated. </p>
+  <div class="cover">
+   <img src="happy-young-female-student-holding-notebooks-from-courses-smiling-camera-standing-spring-clothes-against-blue-background.jpg" width="100%" height="100%" class="radius1" alt="">
+  </div>
+ </div>
+</div>      <!-- col -->
+</div>
+</div><!-- row -->
+
+
+
+
+
+
+
+
+  <!-- footer -->
+
+  <div class="container-fluid end">
+    <div class="row text-center">
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-3 g-3 footp">
+        <h3><img src="logo.png" width="70px" alt="">Ready <span style="color: #12c4a0;">ToGo</span></h3>
+        <p>Ready To Go website is a digital platform that simplifies travel planning and booking for users. It offers various services such as tour packages, flight and hotel bookings, and travel guides, all aimed at enhancing the travel experience.</p>
+      </div>
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-3 yash-Products g-3">
+        <h3>USEFUL LINKS</h3>
+        <p><a href="index.html" class=" text-decoration-none endfoota" >Home</a></p>
+        <p><a href="About.html" class=" text-decoration-none endfoota" >About</a></p>
+        <p><a href="#" class=" text-decoration-none endfoota" >Packages</a></p>
+        <p><a href="Service.html" class=" text-decoration-none endfoota" >Services</a></p>
+        <p><a href="Contact.html" class=" text-decoration-none endfoota" >Contact</a></p>
+
+      </div>
+    
+    
+      <div class="col col-12 col-sm-12 col-md-6 col-lg-3 yash-Products g-3">
+        <h3>Projects</h3>
+        <p><a href="https://yashsinghal001.github.io/LearningPlatformWebsite/" class="endfoota text-decoration-none" target="_blank" >Learning Paltform</a></p>
+        <p><a href="https://yashsinghal001.github.io/EShop-Website/" class="endfoota text-decoration-none"  target="_blank">E-Shop Website</a></p>
+        <p><a href="https://yashsinghal001.github.io/SocialMedia-Website/" class="endfoota text-decoration-none" target="_blank" >Social Media Website</a></p>
+        <p><a href="https://yashsinghal001.github.io/UttrakhandTourWebsite/" class="endfoota text-decoration-none" target="_blank" >UttrakhandTour Website</a></p>
+      </div>
+    
+    
+      <div class="col col-12 pb-3 col-sm-12  col-sm-pb-3 col-md-6 col-lg-3 g-3">
+        <h3>CONTACT</h3>
+        <div class="ic text-center">
+         
+    
+          <div class="main">
+            <div class="up">
+            <a href="https://web.whatsapp.com/" target="_blank">
+              <button class="card1endicon">
+                <svg
+                  class="whatsapp"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  height="30"
+                  width="30"
+                >
+                  <path
+                    d="M19.001 4.908A9.817 9.817 0 0 0 11.992 2C6.534 2 2.085 6.448 2.08 11.908c0 1.748.458 3.45 1.321 4.956L2 22l5.255-1.377a9.916 9.916 0 0 0 4.737 1.206h.005c5.46 0 9.908-4.448 9.913-9.913A9.872 9.872 0 0 0 19 4.908h.001ZM11.992 20.15A8.216 8.216 0 0 1 7.797 19l-.3-.18-3.117.818.833-3.041-.196-.314a8.2 8.2 0 0 1-1.258-4.381c0-4.533 3.696-8.23 8.239-8.23a8.2 8.2 0 0 1 5.825 2.413 8.196 8.196 0 0 1 2.41 5.825c-.006 4.55-3.702 8.24-8.24 8.24Zm4.52-6.167c-.247-.124-1.463-.723-1.692-.808-.228-.08-.394-.123-.556.124-.166.246-.641.808-.784.969-.143.166-.29.185-.537.062-.247-.125-1.045-.385-1.99-1.23-.738-.657-1.232-1.47-1.38-1.716-.142-.247-.013-.38.11-.504.11-.11.247-.29.37-.432.126-.143.167-.248.248-.413.082-.167.043-.31-.018-.433-.063-.124-.557-1.345-.765-1.838-.2-.486-.404-.419-.557-.425-.142-.009-.309-.009-.475-.009a.911.911 0 0 0-.661.31c-.228.247-.864.845-.864 2.067 0 1.22.888 2.395 1.013 2.56.122.167 1.742 2.666 4.229 3.74.587.257 1.05.408 1.41.523.595.19 1.13.162 1.558.1.475-.072 1.464-.6 1.673-1.178.205-.58.205-1.075.142-1.18-.061-.104-.227-.165-.475-.29Z"
+                  ></path>
+                </svg>
+              </button>
+            </a>
+            <!-- card2 -->
+             
+            <a href="https://web.telegram.org/a/" target="_blank">
+              <button class="card2endicon">
+         
+                <!--  -->
+    
+                <?xml version="1.0" encoding="utf-8"?>
+                <!-- License: MIT. Made by Garuda Technology: https://github.com/garudatechnologydevelopers/sketch-icons -->
+                <svg   height="30px"
+                width="30px"
+               
+                viewBox="0 0 30 30"fill="none" xmlns="http://www.w3.org/2000/svg" style="margin: 10px 0 0px -10px;">
+                <circle cx="16" cy="16" r="14" fill="url(#paint0_linear_87_7225)"/>
+                <path d="M22.9866 10.2088C23.1112 9.40332 22.3454 8.76755 21.6292 9.082L7.36482 15.3448C6.85123 15.5703 6.8888 16.3483 7.42147 16.5179L10.3631 17.4547C10.9246 17.6335 11.5325 17.541 12.0228 17.2023L18.655 12.6203C18.855 12.4821 19.073 12.7665 18.9021 12.9426L14.1281 17.8646C13.665 18.3421 13.7569 19.1512 14.314 19.5005L19.659 22.8523C20.2585 23.2282 21.0297 22.8506 21.1418 22.1261L22.9866 10.2088Z" fill="white"/>
+                <defs>
+                <linearGradient id="paint0_linear_87_7225" x1="16" y1="2" x2="16" y2="30" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#37BBFE"/>
+                <stop offset="1" stop-color="#007DBB"/>
+                </linearGradient>
+                </defs>
+                </svg>
+                <!--  -->
+              </button>
+            </a>
+    
+    
+            </div>
+    
+    <!-- Card3 -->
+            <div class="down">
+           
+    <a href="https://github.com/YashSinghal001" target="_blank">
+      <button class="card3endicon">
+        <svg
+          class="github"
+          height="30px"
+          width="30px"
+          viewBox="0 0 30 30"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"
+          ></path>
+        </svg>
+      </button>
+    </a>
+    
+    
+              <!-- card4 -->
+    <a href="https://www.instagram.com/" target="_blank">
+      <button class="card4endicon">
+              
+        <!--  -->
+        <?xml version="1.0" encoding="utf-8"?>
+    <!-- License: Apache. Made by Iconscout: https://github.com/Iconscout/unicons -->
+    <svg fill="#d62976 "  height="30px"
+    width="30px"
+    viewBox="0 0 30 30"xmlns="http://www.w3.org/2000/svg" data-name="Layer 1"><path d="M17.34,5.46h0a1.2,1.2,0,1,0,1.2,1.2A1.2,1.2,0,0,0,17.34,5.46Zm4.6,2.42a7.59,7.59,0,0,0-.46-2.43,4.94,4.94,0,0,0-1.16-1.77,4.7,4.7,0,0,0-1.77-1.15,7.3,7.3,0,0,0-2.43-.47C15.06,2,14.72,2,12,2s-3.06,0-4.12.06a7.3,7.3,0,0,0-2.43.47A4.78,4.78,0,0,0,3.68,3.68,4.7,4.7,0,0,0,2.53,5.45a7.3,7.3,0,0,0-.47,2.43C2,8.94,2,9.28,2,12s0,3.06.06,4.12a7.3,7.3,0,0,0,.47,2.43,4.7,4.7,0,0,0,1.15,1.77,4.78,4.78,0,0,0,1.77,1.15,7.3,7.3,0,0,0,2.43.47C8.94,22,9.28,22,12,22s3.06,0,4.12-.06a7.3,7.3,0,0,0,2.43-.47,4.7,4.7,0,0,0,1.77-1.15,4.85,4.85,0,0,0,1.16-1.77,7.59,7.59,0,0,0,.46-2.43c0-1.06.06-1.4.06-4.12S22,8.94,21.94,7.88ZM20.14,16a5.61,5.61,0,0,1-.34,1.86,3.06,3.06,0,0,1-.75,1.15,3.19,3.19,0,0,1-1.15.75,5.61,5.61,0,0,1-1.86.34c-1,.05-1.37.06-4,.06s-3,0-4-.06A5.73,5.73,0,0,1,6.1,19.8,3.27,3.27,0,0,1,5,19.05a3,3,0,0,1-.74-1.15A5.54,5.54,0,0,1,3.86,16c0-1-.06-1.37-.06-4s0-3,.06-4A5.54,5.54,0,0,1,4.21,6.1,3,3,0,0,1,5,5,3.14,3.14,0,0,1,6.1,4.2,5.73,5.73,0,0,1,8,3.86c1,0,1.37-.06,4-.06s3,0,4,.06a5.61,5.61,0,0,1,1.86.34A3.06,3.06,0,0,1,19.05,5,3.06,3.06,0,0,1,19.8,6.1,5.61,5.61,0,0,1,20.14,8c.05,1,.06,1.37.06,4S20.19,15,20.14,16ZM12,6.87A5.13,5.13,0,1,0,17.14,12,5.12,5.12,0,0,0,12,6.87Zm0,8.46A3.33,3.33,0,1,1,15.33,12,3.33,3.33,0,0,1,12,15.33Z"/></svg>
+        <!--  -->
+      </button>
+    </a>
+            </div>
+          </div>
+          
+    
+          
+    
+    
+          
+        </div>     
+    
+      </div>
+     </div>
+    </div>
+    
+    
+    
+    <div class="end2 p-3">
+      <div class=" container-fluid text-center footp">
+        <p>Copyright &copy; 2024 <a class="y-blnk" href="https://github.com/YashSinghal001" target="_blank"><b>Ready <span style="color: #12c4a0;">ToGo</span></b></a> All Right Resereved</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    
+    <!-- jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- owl  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="script.js"></script>
+    <script src="Vanilla-tilt.js"></script>
+    <script>
+        (() => {
+
+// Fetch all the forms we want to apply custom Bootstrap validation styles to
+const forms = document.querySelectorAll('.needs-validation')
+
+// Loop over them and prevent submission
+Array.from(forms).forEach(form => {
+  form.addEventListener('submit', event => {
+    if (!form.checkValidity()) {
+      event.preventDefault()
+      event.stopPropagation()
+    }
+
+    form.classList.add('was-validated')
+  }, false)
+})
+})()
+    </script>
+</body>
+</html>
